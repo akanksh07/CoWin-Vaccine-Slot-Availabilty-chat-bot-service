@@ -1,1 +1,1 @@
-# CoWin-Vaccine-Slot-Availabilty-chat-bot-service
+# CoWin-Vaccine-Slot-Availabilty-Chat-Bot-service
