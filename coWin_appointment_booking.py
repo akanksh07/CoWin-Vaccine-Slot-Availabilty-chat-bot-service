@@ -269,11 +269,12 @@ if __name__=="__main__":
         mycursor = mydb.cursor()
         try:
             mycursor.execute("CREATE TABLE IF NOT EXISTS regisrty \
-                             (MOBILE_NO VARCHAR(10) PRIMARY KEY ,\
+                             (MOBILE_NO VARCHAR(10),\
                              PINCODE INTEGER,\
                              AGE INTEGER,\
                              FLAG INTEGER,\
-                             RESPONSE_MSG VARCHAR(1000))")
+                             RESPONSE_MSG VARCHAR(1000),\
+                             PRIMARY KEY (MOBILE_NO,PINCODE))")
         except Exception as e:
             print(e)
         
@@ -334,7 +335,10 @@ if __name__=="__main__":
 
 
 
-
+#  SELECT table_schema "cowin_slot_request_registry_db",
+#       ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) 'Size in MiB'
+# FROM information_schema.tables
+# GROUP BY table_schema;
 
 
 
