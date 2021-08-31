@@ -10,11 +10,9 @@ As of 1st May 2021 only 1.8M users [[1]](http://mohfw.gov.in/pdf/CumulativeCOVID
 
 
 # CoWin-Vaccine-Slot-Availabilty-Chat-Bot-service
-![OD7edAAAoQ](https://user-images.githubusercontent.com/36961513/131427639-e0620a03-1c69-4d68-a34c-9c4ab604553c.gif) 
+![Chatbot - fast (1)](https://user-images.githubusercontent.com/36961513/131516236-e377bebd-46c3-413e-b3a6-1ae06a7fd4b1.gif)
 
 
 # Cowin Public API Endpoint:
-![image](https://user-images.githubusercontent.com/36961513/131444704-e97c16c5-1312-46d8-b957-97ad87a05cc8.png)
-
 https://apisetu.gov.in/public/marketplace/api/cowin#/Appointment%20Availability%20APIs/findByPin
 
